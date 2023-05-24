@@ -4,7 +4,7 @@ set -e
 
 VERSION="v1.3.0"
 
-gitDir=$(realpath `dirname $0`/..)
+gitDir=$(pwd)
 echo $gitDir
 
 # uname -s, uname -m
