@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 set -e
-
+set -x
 VERSION="v1.3.0"
 
-gitDir=$(pwd)
-echo $gitDir
+#gitDir=$(pwd)
+#echo $gitDir
 
 # uname -s, uname -m
 # Deb 32: Linux i686
